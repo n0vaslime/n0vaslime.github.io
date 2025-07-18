@@ -77,10 +77,10 @@ q:after {
 
 blockquote {
   /*background-color: #F8F8F8;*/
-  border-left: 2px solid #AFC0D2;
-  margin: 1.6em 10%;
+  border-left: 0px solid #AFC0D2;
+  margin: 0.6em 10%;
   padding: .75em 1em;
-  font-size:1.8rem;
+  font-size:3.8rem;
 }
 blockquote p:last-child {
   margin-bottom: 0;  
@@ -97,13 +97,13 @@ html {
   background-size:cover;
 }
 body {
-  max-width:800px;
+  max-width:1600px;
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+  background: rgba(0,0,0,.9); 
+  padding:40px;
+  color:#A55H58; 
 }
 iframe {
   max-width:100%;
