@@ -44,6 +44,22 @@
     }
 
     </style>-->
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    /* Create three equal columns that sits next to each other */
+    .column {
+        flex: 33.33%;
+        padding: 15px;
+    }
+    </style>
   </head>
   
   <body>
@@ -91,14 +107,58 @@
           <div id="about" class="content-region hide">
             <h2>About me</h2>
             <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+                <div class="row">
+                    <div class="column">
+                        <img src="images/supwydwya.jpg" style="width:75%">
+                    </div>
+                    <div class="column">
+                    <h1>Hi!</h1>
+                    <h2>My name is Archie Still (they/them)</h2>
+                    <h3>I graduated from the University of the West of England in Bristol, with a First in <a href="https://courses.uwe.ac.uk/G611/games-technology">BSc(Hons) Games Technology</a>. I also achieved an award from <a href="https://tiga.org/">The Independent Game Developers' Association (TIGA)</a> for 'Outstanding Graduate of the Year in Games Technology', for my work throughout the course.</h3>
+                    <h3>Video games have been a part of my life for as long as I can remember, and I am especially driven to develop games of my own to give back to this industry. I particularly take interest in video game narratives and how they can be intertwined with gameplay mechanics.</h3>
+                    <h3>I have experience using Godot, Unity and Unreal, as well as coding using C++, C#, GDScript and Python, specialising particularly in level design. I also have some experience in 3D modelling using Autodesk Maya, and experience in writing game analyses at an academic and professional level, as I have written an academic paper on the representation of asexuality in video games that is currently being reviewed for publication by <a href="https://gamestudies.org/2501">Game Studies</a>.</h3>
+                    <h3>I am currently looking into freelance work while developing my own portfolio further, in preparation of taking a Masters degree next year. Please note that I have no intention of working alongside or using generative AI as part of the development process.</h3>
+                    <h2>Take a look at what I've made!</h2>
+                    </div>
+                </div>
             </p>
           </div>
           
           <div id="projects" class="content-region hide">
             <h2>Projects</h2>
             <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+                <div class="row">
+                    <div class="column">
+                        <h3>Goldedge: Dragon's Den</h3>
+                        <img src="images/Dissertation.png" style="width:100%">
+                        A research artefact-turned-game for my final year dissertation, studying how metafiction and breaking the fourth wall affects player agency and engagement.
+                        <p><h4>You can download and play the game <a href="https://n0vaslime.itch.io/goldedge-dragons-den">here</a>.</h4></p>
+                    </div>
+                    <div class="column">
+                        <h3>Temple Trouble</h3>
+                        <img src="images/GE2.png" style="width:100%">
+                    </div>
+                        <div class="column">
+                        <h3>Another Day</h3>
+                        <img src="images/GE3.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>Eyesight Quest</h3>
+                        <img src="images/Dissertation.png" style="width:100%">
+                        A research artefact-turned-game for my final year dissertation, studying how metafiction and breaking the fourth wall affects player agency and engagement.
+                        <p><h4>You can download and play the game <a href="https://n0vaslime.itch.io/goldedge-dragons-den">here</a>.</h4></p>
+                    </div>
+                    <div class="column">
+                        <h3>Goldedge II</h3>
+                        <img src="images/GE2.png" style="width:100%">
+                    </div>
+                        <div class="column">
+                        <h3>Shattering DEMO</h3>
+                        <img src="images/GE3.png" style="width:100%">
+                    </div>
+                </div>
             </p>
           </div>
 
@@ -113,9 +173,9 @@
       </div>
     </div>
 
-    <footer>  
+    <!--<footer>  
       Footer region
-    </footer>
+    </footer>-->
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
